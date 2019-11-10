@@ -2,9 +2,14 @@
 
 <footer>
   <div class="container">
-    <span class="copyright">&copy; {{ .Site.LastChange.Year }} {{ .Site.Title }} - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+    <span class="copyright">&copy; {{ dateFormat "2006" now }} {{ .Site.Title }} - made with <a rel="Hugo" href="https://gohugo.io">Hugo</a> and the <a rel="Hylke Visser" href="https://github.com/htdvisser/hugo-base16-theme">base16 theme</a></span>
   </div>
 </footer>
+<script src="assets/vanilla-back-to-top.min.js"></script>
+<script>addBackToTop({
+    diameter: 56,
+    backgroundColor: '#ddd',
+    textColor: 'red'})</script>
 
 </body>
 </html>
