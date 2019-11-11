@@ -22,10 +22,10 @@
 
   <section class="categories">
     {{ range $name, $value := . }}
-    <h4 class="category">
+    <span class="category">
     <a href="{{ $baseurl }}categories/{{ $name | urlize }}">{{ humanize $name | title }}</a>
       <small>({{ .Count }})</small>
-    </h4>
+    </span>
     {{ end }}
   </section>
 
