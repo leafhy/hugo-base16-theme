@@ -569,3 +569,11 @@ a:link {
 a:visited {
   color: #7B797B;
 }
+.inline-svg {
+  display: inline-block;
+  height: 1.2rem;
+  width: 1.2rem;
+  top: 0rem;
+  position: relative;
+  float: right;
+}
